@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="RTAtt.exe" version="1.0.0.0" publicKeyToken="7ff28c5f603981c6" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="RTAtt" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="RTAtt.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RTAtt.exe" size="165376">
+      <assemblyIdentity name="RTAtt" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>RczYtD44EFg41NQ1DgtXJ3UWeU4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="RTAtt.exe.config" size="1070">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>4K+vEpqQfLLQ+SvDNBS6ua8Va7A=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=HOME\Admin" issuerKeyHash="10336c09f2cd610bc622afa31d0a9bef6b33d9c5" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>561K1l+bleEZPyu35PvHi+j7Law=</DigestValue></Reference></SignedInfo><SignatureValue>hrlL5Cahy8+iHAu/jep/9BTaXSJ0XBU6+of2U8E+n4AIcrxB40uutA/W/51TOebXo2ZQwS7Lbb5lM5ACgJjql/bB31iRHj7KTYChu229OAxueKz9L+OPXpCgn0dud7F36Zw8xi5bzRzkXKfnkwUzjW6s1AIVpaJmXIf+1pdMqNw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>y1rIMpZELfsREpFi355VhOu1y/jZful2D86B5kyT4ZZox0saOOZ/IMKkoyTLVPeS6+HMIbApDOf1c5xuqrh0eeW58kWPgD4pqFZuUHSmAzAAZymgY3l71Vnis27HTv44/0NMaa7sRYwQ7P10VS/aIPiFFh3mruXhfixCX8bS19s=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ac2dfbe88bc7fbe4b72b3f19e1959b5fd64aade7" Description="" Url=""><as:assemblyIdentity name="RTAtt.exe" version="1.0.0.0" publicKeyToken="7ff28c5f603981c6" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HOME\Admin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Rx0CBMdm7JrSeXTz5l1fvhmRGjk=</DigestValue></Reference></SignedInfo><SignatureValue>TiKIuIc9ap6U7QM8e4Ts/BkHHLdsIl+FB46mr3LmJQ2xH775kMZraSHdLcyzUlJy7QWXWu7XLeqEUl6gQSaeeIGaMegUAhmFEGqrtSpsMW5tT3hLasQeJxpHaeMcipQz5YfIfYEcP7bVNpvm2wtf/VY93ofCe2Mv2RHJRi0m1Oo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>y1rIMpZELfsREpFi355VhOu1y/jZful2D86B5kyT4ZZox0saOOZ/IMKkoyTLVPeS6+HMIbApDOf1c5xuqrh0eeW58kWPgD4pqFZuUHSmAzAAZymgY3l71Vnis27HTv44/0NMaa7sRYwQ7P10VS/aIPiFFh3mruXhfixCX8bS19s=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQGLnaC/ysnLdLTDgB/C8ixDANBgkqhkiG9w0BAQUFADAfMR0wGwYDVQQDHhQASABPAE0ARQBcAEEAZABtAGkAbjAeFw0xNDA0MTcwODAzMTdaFw0xNTA0MTcxNDAzMTdaMB8xHTAbBgNVBAMeFABIAE8ATQBFAFwAQQBkAG0AaQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDLWsgylkQt+xESkWLfnlWE67XL+Nl+6XYPzoHmTJPhlmjHSxo45n8gwqSjJMtU95Lr4cwhsCkM5/VznG6quHR55bnyRY+APimoVm5QdKYDMABnKaBjeXvVWeKzbsdO/jj/Q0xpruxFjBDs/XRVL9og+IUWHeau5eF+LEJfxtLX2wIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAJ+jJA9gaOQ1NfWxJKAITF1wL5ndBy73g5DqCrEdDjzW/HbUh+ItNUpvAaj9rFXPNBhkQA2887cxUOhZxiUMYzjlYXVJueNDL+fc8EhIkUByKUr103TLhkio1WNU8HG1s+/uBhp0q03/pACi237mfnQ/XCTTvweVnixrzwkYQWIP</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
